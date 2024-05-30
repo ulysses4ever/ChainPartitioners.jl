@@ -4,11 +4,11 @@ using Documenter
 makedocs(;
     modules=[ChainPartitioners],
     authors="Peter Ahrens <ptrahrens@gmail.com> and contributors",
-    repo="https://github.com/peterahrens/ChainPartitioners.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/ulysses4ever/ChainPartitioners.jl/blob/{commit}{path}#L{line}",
     sitename="ChainPartitioners.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://peterahrens.github.io/ChainPartitioners.jl",
+        canonical="https://ulysses4ever.github.io/ChainPartitioners.jl",
         assets=String[],
     ),
     pages=[
@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/peterahrens/ChainPartitioners.jl",
+    repo="github.com/ulysses4ever/ChainPartitioners.jl",
 )
